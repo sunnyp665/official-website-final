@@ -19,7 +19,7 @@ body {
   margin: 0 auto;
   box-sizing: border-box;
   margin-bottom: 32px;
-  display: absolute;
+  display: flex;
 }
 
 .row__narrow {
@@ -74,7 +74,7 @@ NAVBAR ↓
 
 .nav {
   display: flex;
-  justify-content: sb;
+  justify-content: space-between;
   align-items: center;
   padding-top: 32px;
   width: 100%;
@@ -103,6 +103,16 @@ NAVBAR ↓
   gap: 40px;
   position: relative;
   justify-content: space-between;
+}
+
+.btn {
+  padding: 12px 32px;
+  background: #6415ff;
+  border-radius: 500px;
+  border: none;
+  color: #f7fafc;
+  font-size: 16px;
+  font-weight: 600;
 }
 
 .btn__primary {
@@ -191,8 +201,8 @@ HEADER / ABOUT US ↓
 */
 
 header .row {
-  display: absolute;
-  align-items: align;
+  display: flex;
+  align-items: center;
   justify-content: center;
 }
 
@@ -219,7 +229,15 @@ header .row {
   right: 8px;
   top: 50%;
   transform: translateY(-50%);
+  padding: 12px 32px;
+  background: #6415ff;
+  border-radius: 500px;
+  border: none;
+  color: #f7fafc;
+  font-size: 16px;
+  font-weight: 600;
 }
+
 
 /* 
 
@@ -255,7 +273,7 @@ FEATURES ↓
 }
 
 .feature__img--wrapper {
-  width: 10;
+  width: 10px;
   height: 10px;
   margin-right: 32px;
 }
@@ -285,6 +303,13 @@ QUALITY WORK ↓
   margin-top: 52px;
   margin-bottom: 32px;
   position: relative;
+}
+
+.quality__img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
 }
 
 /* 
