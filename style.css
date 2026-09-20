@@ -260,6 +260,10 @@ FEATURES ↓
   position: relative;
 }
 
+.features{
+  max-width: 1024px;
+}
+
 #features .row__narrow {
   display: flex;
   flex-direction: column;
@@ -278,10 +282,13 @@ FEATURES ↓
 
 .feature__row {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
   margin-bottom: 32px;
 }
+
+
+
 
 .feature__img--wrapper {
   width: 10px;
