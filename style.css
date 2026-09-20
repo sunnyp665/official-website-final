@@ -294,8 +294,8 @@ FEATURES ↓
 }
 
 .feature__img{
-  width: 24px
-  height: 24px
+  width: 24px;
+  height: 24px;
 }
 
 .feature__text{
@@ -307,7 +307,7 @@ FEATURES ↓
   display: flex;
   flex-shrink: 0;
   padding: 20px;
-  border: 1px solid #e5e7eb
+  border: 1px solid #e5e7eb;
   border-radius: 500px;
 }
 
