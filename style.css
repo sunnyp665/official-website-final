@@ -48,7 +48,7 @@ main {
 div.row {
   display: flex;
   align-items: center;
-  position: flex;
+  position: relative;
 }
 
  .section__title-h3{
@@ -89,7 +89,7 @@ NAVBAR ↓
 
 .nav__logo {
   display: flex;
-  align-items: flex;
+
   margin: 8px 0;
   padding-bottom: 4px;
   height: 100px;
@@ -239,6 +239,17 @@ header .row {
 }
 
 
+/* container */
+
+.conatiner{
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  margin-bottom: 32px;
+  display: flex;
+}
+
 /* 
 
 FEATURES ↓
@@ -349,7 +360,7 @@ STEPS ↓
 }
 
 .steps__list {
-  display: absolute;
+  display: flex;
   flex-direction: column;
   align-items: center;
   margin-bottom: 32px;
@@ -359,7 +370,7 @@ STEPS ↓
 #steps .row {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
 }
 
 /* 
@@ -383,7 +394,7 @@ PRICING ↓
 #pricing .row {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
 }
 
 /* 
@@ -426,6 +437,15 @@ footer {
 MOBILE RESPONSIVENESS ↓
 
 */
+
+.column{
+  width: 100%;/* stacked on moble */
+}
+@media(min-width: 768px){
+  .column{
+    width: 50%;/* side by side on larger screens */
+  }
+}
 
 @media (max-width: 1280px) {
   header .row {
