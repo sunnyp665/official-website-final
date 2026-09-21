@@ -407,6 +407,11 @@ QUALITY WORK ↓
   border-radius: 8px;
 }
 
+.quality__description,
+.quality__img--wrapper{
+  width: 50%;
+}
+
 /* 
 
 STEPS ↓
