@@ -285,7 +285,7 @@ FEATURES ↓
   text-align: center;
 }
 
-#feature .section__para{
+#features .section__para{
   max-width: 576px;
   text-align: center;
 }
@@ -347,7 +347,7 @@ FEATURES ↓
   }
 }
  @media( max-width: 768px){
-  .feature{
+  .features{
     justify-content: center;
   }
 
