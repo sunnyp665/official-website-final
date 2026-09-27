@@ -66,6 +66,19 @@ div.row {
   margin-bottom: 1px;
 }
 
+.section__tag{
+  display: flex;
+  font-size:20px;
+  position: relative;
+  align-self: auto;
+
+}
+.section__title{
+  display: flex;
+  font-size: 40px;
+  position:relative;
+}
+
 /* 
 
 NAVBAR ↓
@@ -479,12 +492,26 @@ VALUES ↓
 PRICING ↓
 
 */
+ 
+
 
 #pricing .row {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
+
+/* plan */
+
+.plans{
+  display: flex;
+  align-self: auto;
+
+}
+
+
+
+
 
 /* 
 
