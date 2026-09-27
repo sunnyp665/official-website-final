@@ -498,15 +498,19 @@ PRICING ↓
 #pricing .row {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
+  text-align: center;
 }
 
 /* plan */
-
 .plans{
   display: flex;
-  align-self: auto;
-
+  width: 100%;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+.plan{
+  flex: 1 1 240px;
 }
 
 
