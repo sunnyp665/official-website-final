@@ -207,6 +207,10 @@ NAVBAR ↓
   right: 18px;
 }
 
+.btn__menu--svg:hover{
+  filter: invert(26%) sepia(94%) saturate(7476%) hue-rotate(261deg) brightness(94%) contrast(115%);
+}
+
 /* 
 
 HEADER / ABOUT US ↓
@@ -503,18 +507,37 @@ PRICING ↓
 }
 
 /* plan */
+
 .plans{
   display: flex;
   width: 100%;
   gap: 32px;
   flex-wrap: wrap;
 }
-.plan{
-  flex: 1 1 240px;
+.plan {
+  width: 100%;
+  max-width: 384px;
+  border:1px solid #e5e7eb;
+  border-radius:8px;
+  overflow: hidden;
+  text-align: center;
+  
 }
 
+.plan-stripe{
+  color: #6415ff;
+  padding: 8px 0;
+  
 
+  
+}
 
+.plan__title{
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.5;
+  margin-bottom: 8px;
+}
 
 
 /* 
