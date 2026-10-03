@@ -8,6 +8,10 @@
   color: #243e63;
 }
 
+.login{
+  margin-left: 48px;
+}
+
 body {
   max-width: 100vw;
   overflow-x: hidden;
@@ -19,7 +23,7 @@ body {
   margin: 0 auto;
   box-sizing: border-box;
   margin-bottom: 32px;
-  display: flex;
+  text-align: center;
 }
 
 .row__narrow {
@@ -89,6 +93,11 @@ nav{
   /* your exsiting styles */
 }
 
+nav{
+  display: flex;
+  padding-top: 32px;
+}
+
 .nav {
   display: flex;
   justify-content: space-between;
@@ -101,21 +110,28 @@ nav{
 
 .nav__logo--title{
   font-size: 24px;
-  font-weight: 600;
+  font-weight: 900;
+  margin-left:12px;
   line-height: 1.5;
-  
+}
+
+.nav__logo--img{
+  width: 50px;
+  height: 50px;
 }
 
 .nav__row {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0;
 }
 
 .nav__logo {
   display: flex;
   margin: 8px 0;
   padding-bottom: 4px;
-  height: 55px;
+  align-items: center;
   left: 0;
   right: 0;
 }
@@ -126,6 +142,13 @@ nav{
   gap: 40px;
   position: relative;
   justify-content: space-between;
+}
+
+.nav__link{
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  margin: 0 24px;
 }
 
 .btn {
@@ -288,8 +311,8 @@ FEATURES ↓
   position: relative;
 }
 
-.features {
-  max-width: 1024px;
+.feature {
+ max-width: 1024px;
   display: flex;
   flex-wrap: wrap;
   width: 100%;
@@ -330,9 +353,10 @@ FEATURES ↓
 
 .feature__row {
   display: flex;
-  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  align-items: flex-start;
   padding: 32px 24px;
-  
 }
 
 .feature__img{
@@ -343,6 +367,7 @@ FEATURES ↓
 .feature__text{
   margin-top: 8px;
   margin-left: 16px;
+  text-align: left;
 }
 
 .feature__img--wrapper {
