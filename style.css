@@ -570,6 +570,10 @@ PRICING ↓
   border-radius:8px;
   overflow: hidden;
   text-align: center;
+  position: relative;
+  margin-top: 4rem;
+  flex-direction: column;
+  display: flex;
   
 }
 
