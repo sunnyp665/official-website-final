@@ -278,10 +278,13 @@ header .row {
   width: 100%;
   padding: 20px 180px 20px 24px;
   border: 2px solid rgb(43, 98, 207);
-  border-radius: 50px;
+  border-radius: 500px;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 500;
   width: 300px;
+  top:0;
+  bottom:0;
+  transition: border-color 300ms;
 }
 
 .header__email--btn {
@@ -303,11 +306,26 @@ header .row {
 }
 
 .header__img--wrapper {
-  width: 100%;
- 
-
-  
+  width: calc(100% - 40%);
+  padding: 32px;
+  border-radius: 10px;
 }
+
+.header__description {
+  width: 40%;
+  display: block;
+  
+
+}
+
+.header__img {
+  width: 100%;
+  max-width: 768px;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+}
+ 
 
 
 /* container */
@@ -390,7 +408,8 @@ FEATURES ↓
   text-align: left;
 }
 
-.feature__img--wrapper {
+.feature__img--wrapper
+ {
   display: flex;
   flex-shrink: 0;
   padding: 20px;
