@@ -49,122 +49,127 @@
                 </svg>
             </button>
             <div class="modal__links">
-                <a class="modal__link">About</a>
-                <a class="modal__link">Blog</a>
-                <a class="modal__link">Pricing</a>
-                <a class="modal__link">Contact Us</a>
-                <a class="modal__link">Login</a>
-    <a class="modal__link modal__link--primary">Sign Up</a>
+<a href="#about" class="modal__link" onclick="closeMenu()">About</a>
+<a href="#blog" class="modal__link" onclick="closeMenu()">Blog</a> <a href="#pricing" class="modal__link" onclick="closeMenu()">Pricing</a>
+ <a href="#contact" class="modal__link" onclick="closeMenu()">Contact Us</a>
+<a href="#login" class="modal__link" onclick="closeMenu()">Login</a>
+<a href="#signup" class="modal__link modal__link--primary" onclick="closeMenu()">Sign Up ::after </a>
             </div>
         </div>
         <header>
-            <div class="header__description">
+            <div class="container">
                 <div class="row">
-                <h1> React Templates For 
-                <span class="purple">YOU</span></h1>     <p class="header__description--para">Infinite possibilities with our react templates let your imagination run and creativity flourish with our help your ideas can come to life.
-                </p>
+            <div class="header__description">
+             <h1> React Templates For<span class="purple">YOU</span></h1> 
+<p class="header__description--para">Infinite possibilities with our react templates let your imagination run and creativity flourish with our help your ideas can come to life. </p>
                 <div class="header__email">
-                    <input type="email" placeholder="Enter email " class="header__email--input">
+                    <input type="text" class="header__email--input" placeholder="your E-mail Address"> 
             <button class="header__email--btn">Get Started</button>
                 </div>
-            </div>
-          <div class="row__narrow">
-                   <h3 class="features__logo-strip">OUR TRUSTED Companies</h3>
-                   <img src="assets/customers-logo-strip.680ac7c2e8ae28161d2c.png" alt="Customers Logo Strip" class="features__logo-strip">
+    <p class="header__customers--title">OUR TRUSTED Companies</p>
+<img src="assets/customers-logo-strip680ac7c2e8ae28161d2c.png" class="header__customers">
                 </div>
-            </div>
             <figure class="header__img--wrapper">
             <img src="assets/design-illustration-2.6da6a00b20c07c4a9b65d1870679e1b8.svg" class="header__img"></figure>
                </div>
             </div>
           </header>
         </section>
+        <main>
         <section id="features">
             <div class="container">
                 <div class="row__narrow">
-                    <h3 class="section__title-h3">Features</h3>
-                    <h1 class="section__title-h1">OUR SERVICES</h1>  
-                    <p class="section__para">We provide a guarantee of quality and satisfaction with security and a promise. </p>
-                </div>
-            </div>
-        </section>
-         <div class="features">
+                    <h4 class="section__tag">FEATURES</h4>
+                    <h2 class="section__title"> " OUR AMAZING " <span class="purple">SERVICES</span></h2>  
+                    <div class="section__para">We provide a guarantee of quality and satisfaction with security and a promise. 
+                   </div>
+                   <div class="features">
                     <div class="feature">
                     <div class="feature__row">
-                        <figure class="feature__img--wrapper">
-                            <img src="assets/shield-icon.daefe14b320b14fbd9cbd18908ac93ec.svg" class="feature__img" alt="Security Icon">
+                <figure class="feature__img--wrapper">
+                            <img src="assets/shield-icon.daefe14b320b14fbd9cbd18908ac93ec.svg" class="feature__img">
                         </figure>
                         <div class="feature__text">
                             <h2 class="feature__title">Security</h2>
-                            <p class="feature__para">We prioritize the security of your data and ensure it is protected at all times.</p>
+                            <p class="feature__para">We prioritize the security of your data and ensure it is protected at all times.
+                              </p>
                             </div>
                         </div>
                     </div>
-                    </div>
-               
-         
-    
-       
-           
                 <div class="feature">
                     <div class="feature__row">
                         <figure class="feature__img--wrapper">
-                            <img src="assets/support-icon.f9253ffa8cb6ffde5bbaa05eb5136375.svg" class="feature__img" alt="Fast Icon">
+                            <img src="assets/support-icon.f9253ffa8cb6ffde5bbaa05eb5136375.svg" class="feature__img">
                         </figure>
                         <div class="feature__text">
-                            <h2 class="feature__title">24/7 Support</h2>
+                        <h2 class="feature__title">24/7 Support</h2>
                             <p class="feature__para">We provide round-the-clock support to ensure your needs are met promptly and efficiently.</p>
                         </div>
                     </div>
-                   </div>
-               
-           
-        
-        
-           
-                <div class="feature">
+                 </div>
+              <div class="feature">
                     <div class="feature__row">
                         <figure class="feature__img--wrapper">
-                            <img src="assets/customize-icon.367468c90fd796009b97fbfba67b2c6a.svg" class="feature__img" alt="Fast Icon">
+                            <img src="assets/customize-icon.367468c90fd796009b97fbfba67b2c6a.svg" class="feature__img">>
                         </figure>
                         <div class="feature__text">
                             <h2 class="feature__title">Customization</h2>
-                            <p class="feature__para">We offer customization options to tailor our services to your specific needs and preferences.</p>
+                            <p class="feature__para">We offer customization options to tailor our services to your specific needs and preferences.    
+                            </p>
                         </div>
                     </div>
-                   
                 </div>
-           
-        
-               
-                    <div class="feature">
+               <div class="feature">
                         <div class="feature__row">
                             <figure class="feature__img--wrapper">
-                                <img src="assets/reliable-icon.1367510a8f0a1bec76dc425d25f92f43.svg" class="feature__img" alt="Fast Icon">
+                                <img src="assets/reliable-icon.1367510a8f0a1bec76dc425d25f92f43.svg" class="feature__img">
                             </figure>
                             <div class="feature__text">
                                 <h2 class="feature__title">Reliability</h2>
                                 <p class ="feature__para">We guarantee reliable performance and consistent results across all our services.</p>
                             </div>
                         </div>
-                       
+                    </div>
+                <div class="feature">
+                    <div class="feature__row">
+                        <figure class="feature__img--wrapper">
+                            <img src="assets/fast-icon.dbb971a73d4805d2fc3bcdacdb55beba.svg" class="feature__img">
+                        </figure>
+                        <div class="feature__text">
+                            <h2 class="feature__title">Fast</h2>
+                            <p class="feature__para">We provide fast turnaround times without compromising on quality.  
+                            </p>
+                        </div>
                     </div>
                 </div>
-                
-        <section id="start">
+                <div class="feature">
+                    <div class="feature__row">
+                        <figure class="feature__img--wrapper">
+                            <img src="assets/simple-icon.673b7e1750b2a4ef32907fc164828d00.svg" class="feature__img">
+                        </figure>
+                        <div class="feature__text">
+                            <h2 class="feature__title">Easy</h2>
+                            <p class="feature__para">We make it easy for you to access and use our services with a user-friendly interface and simple processes.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <section id="quality">
             <div class="container">
                 <div class="row">
                    <div class="quality__description">
                     <div class="section__tag">QUALITY WORK</div>
-                    <h2 class="section__title">Design and develop <span class="purple">high-quality solutions</span></h2>
-                    <p class="section__para">...</p>
+                    <h2 class="section__title">Design and developed by<span class="purple">Professionals.</span></h2>
+                    <p class="section__para">We are committed to delivering high-quality work that exceeds our clients' expectations.</p>
                     <button class="btn">Learn More</button>
                     </div>
-                    <figure class="quality__description">
+                    <figure class="quality__img--wrapper">
                         <img src="assets/prototype-illustration.21bc4b3f612a2f257c3d361067582485.svg" class="quality__img">
-                        
-                     </figure>
-                   
+                    </figure>
                 </div>
             </div>
         </section>

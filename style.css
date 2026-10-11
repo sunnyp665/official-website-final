@@ -8,6 +8,11 @@
   color: #243e63;
 }
 
+a{
+  display:inline;
+  text-decoration:none;
+}
+
 .login{
   margin-left: 48px;
 }
@@ -21,11 +26,6 @@ body {
   width: 100%;
   max-width: 1280px;
   margin: 0 auto;
-  box-sizing: border-box;
-  margin-bottom: 32px;
-  text-align: center;
-  padding: 0 ;
-  box-sizing: border-box;
 }
 
 .row__narrow {
@@ -44,7 +44,7 @@ body {
 
 section {
   padding: 0 32px;
-  color: dark-grey;
+  
 }
 
 main {
@@ -107,6 +107,19 @@ nav{
   padding-top: 32px;
 }
 
+.nav__link--primary{
+  margin: 0;
+  padding: 12px 32px;
+  margin-top: 8px;
+  border-radius: 9999px;
+  color: #f7fafc;
+  background-color: #6415ff;
+  line-height: 1.5;
+  border: none;
+  width:auto;
+  transition: all 300ms ease;
+}
+
 .nav {
   display: flex;
   justify-content: space-between;
@@ -148,16 +161,31 @@ nav{
 .nav__links {
   display: flex;
   align-items: center;
-  gap: 40px;
-  position: relative;
-  justify-content: space-between;
+  padding-bottom: 2px;
+ 
 }
 
 .nav__link{
   font-size: 14px;
   font-weight: 600;
-  text-decoration: none;
+  padding-top: 4px;
+  letter-spacing: 1px;
+  border-bottom: 2px solid transparent;
+  position: relative;
+  transition: all 300ms;
   margin: 0 24px;
+}
+
+.nav__link:after{
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 2px;
+  background-color: #6415ff;
+  opacity: 0;
+  transition: all 300ms ease;
 }
 
 .btn {
@@ -260,6 +288,12 @@ HEADER / ABOUT US ↓
 
 */
 
+.h1{
+  font-size: 40px;
+  line-height: 1.5;
+ 
+}
+
 header .row {
   display: flex;
   align-items: center;
@@ -325,7 +359,28 @@ header .row {
   display: block;
   border-radius: 8px;
 }
- 
+
+header{
+  display: flex;
+}
+
+.header__customers{
+  width: 100%;
+  max-width: 768px;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+  margin-top: 32px;
+}
+
+.header__customers--title{
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.5;
+  margin-bottom: 1px;
+  color: grey;
+  margin-top:32px;
+}
 
 
 /* container */
@@ -377,16 +432,6 @@ FEATURES ↓
 #features .section__para{
   max-width: 576px;
   text-align: center;
-}
-
-.features__logo-strip {
-  width: 100%;
-  max-width: 1024px;
-  margin-top: 32px;
-  margin-bottom: 32px;
-  color: grey;
-  text-align: center;
-  position: relative;
 }
 
 .feature__row {
