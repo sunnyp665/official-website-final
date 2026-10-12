@@ -95,6 +95,11 @@ img{
   width: 100%;
 }
 
+button{
+  cursor: pointer;
+ appearance: auto;
+  
+}
 
 /* 
 
@@ -311,11 +316,14 @@ header .row {
 }
 
 .header__email {
-  position: relative;
   width: 100%;
-  max-width: 480px;
+  max-width: 448px;
+  height: 68px;
+  position: relative;
   display: flex;
-  margin-top: 32px;
+  justify-content: flex-end;
+  align-items: center;
+  
 }
 
 .header__email--input {
@@ -326,23 +334,25 @@ header .row {
   font-size: 16px;
   font-weight: 500;
   width: 300px;
+  position: absolute;
   top:0;
   bottom:0;
+  z-index: 1;
   transition: border-color 300ms;
 }
 
 .header__email--btn {
-  position: absolute;
-  right: 8px;
-  top: 50%;
-  transform: translateY(-50%);
-  padding: 12px 32px;
-  background: #6415ff;
-  border-radius: 500px;
-  border: none;
-  color: #f7fafc;
-  font-size: 16px;
-  font-weight: 600;
+ z-index: 2;
+ margin: 8px;
+ height:calc(100% - 16px);
+ border-radius: 500px;
+ width: 160px;
+ border: none;
+ background-color: #6415ff;
+ color: #f7fafc;
+ font-weight: 700;
+ font-size: 16px;
+ transition: all 300ms ease;
 }
 
 .header__decription--para {
