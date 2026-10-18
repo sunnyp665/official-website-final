@@ -121,11 +121,9 @@ NAVBAR ↓
 
 */
 
-nav{
-  /* your exsiting styles */
-}
 
-nav{
+
+.nav{
   display: flex;
   padding-top: 32px;
 }
@@ -667,7 +665,7 @@ STEPS ↓
 
 .step {
  display:flex;
- align-item:flex-start;
+
  margin-top: 32px;
 }
 
