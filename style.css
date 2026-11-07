@@ -949,10 +949,14 @@ TESTIMONIALS ↓
   margin-top: 40px;
 }
 
-.testimonials__rating{
+.testimonials__rating {
   color:rgba(246, 173, 85);
   margin-right: 2px;
   margin-top: 4px;
+}
+
+.testimonials__rating i{
+ color:rgba(246, 173, 85);
 }
 
 .testimonials__profile{
@@ -981,6 +985,13 @@ TESTIMONIALS ↓
   font-weight: 400;
   line-height: 1.5;
   color: #718096;
+}
+
+.testimonials__bottom{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .testimonials__buttons{
@@ -1114,7 +1125,7 @@ FOOTER ↓
 
 */
 
-.footer__row{
+div.footer__row {
   display:block;
 }
 
