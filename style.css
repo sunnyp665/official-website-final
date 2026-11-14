@@ -624,12 +624,7 @@ STEPS ↓
 
 */
 
-@media (max-width: 768px) {
-  .step{
-    flex-direction: column;
-    align-items: center;
-  }
-}
+
 
 
 .step__number {
@@ -641,15 +636,14 @@ STEPS ↓
 }
 
 .steps__description{
-  display:flex;
-  flex-direction: column;
-  margin-left:24px;
-  max-width:320px;
+ padding: 0;
+ padding-left: 64px;
 }
 
 .steps__description,
 .step__img--wrapper{
   width:100%;
+  max-width: 448px;
  
 }
 
