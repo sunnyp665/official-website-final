@@ -640,16 +640,17 @@ STEPS ↓
  
 }
 
-.step__description{
+.steps__description{
   display:flex;
   flex-direction: column;
   margin-left:24px;
   max-width:320px;
 }
 
-.step__description,
+.steps__description,
 .step__img--wrapper{
-  width:50%;
+  width:100%;
+ 
 }
 
 .step__img--wrapper{
@@ -1338,7 +1339,7 @@ MOBILE RESPONSIVENESS ↓
 }
 
 @media (max-width:768px){
-  .quality__description, .step__description,
+  .quality__description, .steps__description,
   .values__description, .testimonials__description{
     text-align: center;
   }
