@@ -1154,7 +1154,7 @@ START / CALL TO ACTION ↓
   z-index: 2;
 }
 
-.start__button:nth-child(1){
+.start__button:nth-of-type(1){
   margin-right: 32px;
   background:red;
   box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,rgba(0,0,0,0.1) 0px 10px 15px -3px, rgba(0,0,0,0.05) 0px 4px 6px -2px;
@@ -1164,6 +1164,11 @@ START / CALL TO ACTION ↓
 .start__button:nth-child(2){
   border:1px solid rgb(160,174,192);
   transition: all 300ms ease;
+}
+
+.start__buttons{
+  display: flex;
+  justify-content: flex-end;
 }
 /* 
 
@@ -1400,5 +1405,31 @@ MOBILE RESPONSIVENESS ↓
   .plan{
     margin-right: 0;
     width:100%;
+  }
+}
+
+@media (max-width:640px){
+  .start__button:nth-child(1){
+    margin-right:0;
+  }
+}
+
+
+@media(max-width:640px){
+  .start__buttons{
+    flex-direction: column;
+  }
+}
+
+@media(max-width:1024px){
+  .start__button{
+    width:auto;
+    margin-top:24px;
+  }
+}
+
+@media(max-width:640px){
+  .btn{
+    line-height:1.5;
   }
 }
